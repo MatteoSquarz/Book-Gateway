@@ -15,5 +15,6 @@ gcc queryDB.c -o queryDB -I /usr/include/postgresql -lpq
 
 ## Utilizzo
 Una volta che si accede al programma da terminale è possibile effettuare una scelta digitando un numero da 1 a 5 per selezionare la query che si vuole eseguire, successivamente inserire i parametri desiderati. I risultati vengono poi mostrati a schermo.
+
 <img width="631" height="225" alt="image" src="https://github.com/user-attachments/assets/50bd6f67-47d4-4542-bada-61a934db4ce8" />
 
