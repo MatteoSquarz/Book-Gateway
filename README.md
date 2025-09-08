@@ -9,7 +9,7 @@ Prestare attenzione alla cartella ```dependecies/``` la quale deve contenere le 
 
 In seguito è possibile compilare ed eseguire il codice con i comandi:
 ```
-gcc queryDB.c -L dependencies/lib -lpq -o queryDB
+gcc queryDB.c -o queryDB -I /usr/include/postgresql -lpq
 ./queryDB
 ```
 
