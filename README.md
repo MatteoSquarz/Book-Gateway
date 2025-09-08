@@ -1,6 +1,6 @@
 # Book-Gateway
 Progetto di coppia per il corso di Basi di Dati della laurea triennale in Informatica (Università di Padova). 
-Il progetto mira a progettare ed implementare una base dati per una libreria come viene descritto più dettagliatamente nella [relazione](https://github.com/MatteoSquarz/Book-Gateway/blob/main/Relazione_Squarzoni_Lapenna.pdf)
+Il progetto mira a progettare ed implementare una base dati per una libreria come viene descritto più dettagliatamente nella [relazione](https://github.com/MatteoSquarz/Book-Gateway/blob/main/Relazione_Squarzoni_Lapenna.pdf).
 
 ## Installazione
 È necessario avere installati localmente il database Postgres e PgAdmin4. Dunque sarà sufficiente avviare Postgres, e poi collegarsi al server tramite PgAdmin4 dove è necessario, tramite l'interfaccia grafica, creare il database ed eseguire lo [script](https://github.com/MatteoSquarz/Book-Gateway/blob/main/init_tabelle.sql) per inizializzare e popolare le tabelle. Le variabili della stringa di connessione al database sono modificabili nel codice.
