@@ -13,7 +13,7 @@ gcc queryDB.c -o queryDB -I /usr/include/postgresql -lpq
 ./queryDB
 ```
 
->[!PREREQUISITES]
+>[!TIP]
 >
 > In Linux è necessario scaricare le librerie libpq-dev e libpq5.
 
