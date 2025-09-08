@@ -13,6 +13,10 @@ gcc queryDB.c -o queryDB -I /usr/include/postgresql -lpq
 ./queryDB
 ```
 
+>[!PREREQUISITES]
+>
+> In Linux è necessario scaricare le librerie libpq-dev e libpq5.
+
 ## Utilizzo
 Una volta che si accede al programma da terminale è possibile effettuare una scelta digitando un numero da 1 a 5 per selezionare la query che si vuole eseguire, successivamente inserire i parametri desiderati. I risultati vengono poi mostrati a schermo.
 
